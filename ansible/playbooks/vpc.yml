@@ -1,0 +1,9 @@
+---
+
+- hosts: local
+  connection: local
+  gather_facts: false
+  
+  roles:
+    - role: vpc
+    - role: security-group

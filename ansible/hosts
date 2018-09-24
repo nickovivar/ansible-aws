@@ -1,0 +1,5 @@
+[local]
+localhost
+
+[application]
+minichat ansible_host=minichat.stackbuilders.net
