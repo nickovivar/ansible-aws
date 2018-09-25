@@ -1,5 +1,5 @@
-[local]
-localhost
+[aws]
+aws-host ansible_host=localhost
 
 [application]
 minichat ansible_host=minichat.stackbuilders.net
