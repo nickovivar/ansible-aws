@@ -18,3 +18,8 @@ route_name: rtb-minichat
 #Security Group
 sg_name: sg_minichat
 
+#EC2
+keypair: quitolambda
+image: ami-00b2578f8d3753164
+count: 1
+elastic_ip: 52.9.23.90
