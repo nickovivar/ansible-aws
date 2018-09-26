@@ -20,6 +20,8 @@ sg_name: sg_minichat
 
 #EC2
 keypair: quitolambda
+instance: t2.micro
+server_name: minichat_server
 image: ami-00b2578f8d3753164
 count: 1
 elastic_ip: 52.9.23.90
